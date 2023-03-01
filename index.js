@@ -5,6 +5,8 @@ const expressObj = express();
 
 expressObj.use(express.json());
 
+expressObj.use(express.static('public'));
+
 
 
 const courses = [{
